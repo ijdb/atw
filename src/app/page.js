@@ -1,6 +1,7 @@
 import YellowClip from "@/components/clips/YellowClip";
 import Navbar from "@/components/navbar/Navbar";
 import SectionOne from "@/components/section-one/SectionOne";
+import SectionTwo from "@/components/section-two/SectionTwo";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,7 +10,8 @@ export default function Home() {
 			<Navbar />
 			<YellowClip />
 			<SectionOne />
-			<YellowClip inverted />
+			{/* <YellowClip inverted /> */}
+			<SectionTwo />
 		</div>
 	);
 }

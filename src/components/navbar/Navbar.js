@@ -21,7 +21,7 @@ export default function Navbar() {
 				<Link href="#">
 					<NavLink name="Contact" />
 				</Link>
-				<StartBtn bgcolor="yellow-450" textcolor="black" hoverbg="black" />
+				<StartBtn type="primary" />
 			</div>
 		</div>
 	);
