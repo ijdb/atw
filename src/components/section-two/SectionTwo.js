@@ -27,8 +27,8 @@ function SectionTwo() {
 				</div>
 			</div>
 
-			<div>
-				<Image src="/isha.svg" width="400" height="400" name="" />
+			<div className="w-3/5 h-auto relative z-10">
+				<Image src="/isha.svg" fill={true} alt="" />
 			</div>
 		</div>
 	);
