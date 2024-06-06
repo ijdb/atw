@@ -15,7 +15,7 @@ function SectionTwo() {
 			<div>
 				<StartBtn />
 			</div>
-			<div className="flex gap-12">
+			<div className="flex gap-12 pt-6">
 				<Thumbnail source="/lock.svg" name="Speed &" name2="Security" />
 				<Thumbnail
 					source="/scale.svg"
