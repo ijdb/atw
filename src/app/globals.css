@@ -21,3 +21,10 @@
 		text-wrap: balance;
 	}
 }
+
+path {
+	stroke-width: 1;
+	stroke: rgb(250 204 21);
+	stroke-linecap: round;
+	fill: rgb(250 204 21);
+}

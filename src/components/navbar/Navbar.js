@@ -3,7 +3,7 @@ import NavLink from "./NavLink";
 import StartBtn from "../StartBtn";
 export default function Navbar() {
 	return (
-		<div className="flex py-9 justify-between items-center">
+		<div className="flex py-9 px-24 justify-between items-center">
 			<div>
 				<div className="font-bold text-lg">Atrox Technology</div>
 				<div className="font-light">Communicate. Collaborate. Create</div>
@@ -21,7 +21,7 @@ export default function Navbar() {
 				<Link href="#">
 					<NavLink name="Contact" />
 				</Link>
-				<StartBtn bgcolor="yellow-400" textcolor="black" hoverbg="black" />
+				<StartBtn bgcolor="yellow-450" textcolor="black" hoverbg="black" />
 			</div>
 		</div>
 	);
