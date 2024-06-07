@@ -1,5 +1,6 @@
 import React from "react";
 import StartBtn from "../StartBtn";
+import Image from "next/image";
 
 function SectionSix() {
 	return (
@@ -10,6 +11,9 @@ function SectionSix() {
 			</div>
 			<div className="justify-self-center">
 				<StartBtn />
+			</div>
+			<div className="w-600 h-full relative">
+				<Image src="/paint.svg" alt="" />
 			</div>
 		</div>
 	);
