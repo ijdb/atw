@@ -1,4 +1,5 @@
 import YellowClip from "@/components/clips/YellowClip";
+import Footer from "@/components/footer-section/Footer";
 import Navbar from "@/components/navbar/Navbar";
 import Sectionfive from "@/components/section-five/Sectionfive";
 import SectionFour from "@/components/section-four/SectionFour";
@@ -19,6 +20,7 @@ export default function Home() {
 			<SectionFour />
 			<Sectionfive />
 			<SectionSix />
+			<Footer />
 		</div>
 	);
 }
