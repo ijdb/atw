@@ -12,13 +12,13 @@ export default function Navbar() {
 				<Link href="#">
 					<NavLink name="Home" />
 				</Link>
-				<Link href="#">
+				<Link href="#product">
 					<NavLink name="Product" />
 				</Link>
-				<Link href="#">
+				<Link href="#testimonial">
 					<NavLink name="Testimonials" />
 				</Link>
-				<Link href="#">
+				<Link href="#contact">
 					<NavLink name="Contact" />
 				</Link>
 				<StartBtn type="primary" />

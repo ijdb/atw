@@ -1,3 +1,4 @@
+import Copyright from "@/components/Copyright";
 import YellowClip from "@/components/clips/YellowClip";
 import Footer from "@/components/footer-section/Footer";
 import Navbar from "@/components/navbar/Navbar";
@@ -21,6 +22,7 @@ export default function Home() {
 			<Sectionfive />
 			<SectionSix />
 			<Footer />
+			<Copyright />
 		</div>
 	);
 }

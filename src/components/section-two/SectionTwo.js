@@ -5,7 +5,7 @@ import Thumbnail from "./Thumbnail";
 
 function SectionTwo() {
 	return (
-		<div className="flex py-32 px-24">
+		<div id="product" className="flex py-32 px-24">
 			<div className="grid gap-11 items-center w-2/3">
 				<div className="text-4xl tracking-normal font-mono leading-snug">
 					Communicate. Collaborate. Create.
