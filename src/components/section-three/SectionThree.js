@@ -1,18 +1,17 @@
 import React from "react";
-import Image from "next/image";
 import Photo from "./Photo";
 function SectionThree() {
 	return (
-		<div className="grid gap-6 items-center py-28 px-24">
-			<div className="text-4xl tracking-normal font-mono leading-snug">
+		<div className="grid gap-4 sm:gap-6 items-center px-6 py-8 sm:py-28 sm:px-24">
+			<div className="text-2xl sm:text-4xl tracking-normal font-mono leading-snug">
 				What We Offer
 			</div>
-			<div className="font-light w-2/4 leading-normal text-justify">
+			<div className="font-light sm:w-2/4 leading-normal text-justify">
 				I'm a paragraph. Click here to add your own text and edit me. It’s easy.
 				Just click “Edit Text” or double click me to add your own content and
 				make changes to the font.
 			</div>
-			<div className="flex gap-5 mt-16">
+			<div className=" grid sm:flex gap-14 sm:gap-5 mt-8 sm:mt-16">
 				<Photo
 					source="/img1.webp"
 					title="Workflows That Work"
