@@ -1,12 +1,17 @@
-import Image from "next/image";
 import React from "react";
+import MediaIcon from "./MediaIcon";
 
 function Footer() {
 	return (
-		<footer id="contact" className="grid grid-cols-2 bg-yellow-450 py-24 px-24">
-			<div className="grid gap-5">
-				<div className="font-bold text-3xl font-mono">Atrox Technology</div>
-				<div className="text-2xl">Contact</div>
+		<footer
+			id="contact"
+			className="grid px-6 py-8 sm:grid-cols-2 bg-yellow-450 sm:py-24 sm:px-24"
+		>
+			<div className="grid gap-4 sm:gap-5">
+				<div className="font-bold text-xl sm:text-3xl font-mono">
+					Atrox Technology
+				</div>
+				<div className="text-xl sm:text-2xl">Contact</div>
 				<div className="font-light text-sm tracking-tight">
 					519, JMD Megapolis
 					<br /> Gurugram, Haryana
@@ -15,16 +20,10 @@ function Footer() {
 					hello@atrox.io
 				</div>
 			</div>
-			<div className="flex gap-5 justify-end items-end">
-				<button class="h-7 w-7 font-semibold rounded relative">
-					<Image src="/linkedin.svg" fill={true} />
-				</button>
-				<button class="h-7 w-7 font-semibold rounded relative">
-					<Image src="/tweet.svg" fill={true} />
-				</button>
-				<button class="h-7 w-7 font-semibold rounded relative">
-					<Image src="/fb.svg" fill={true} />
-				</button>
+			<div className="flex mt-9 gap-5 sm:justify-end sm:items-end">
+				<MediaIcon image="/linkedin.svg" />
+				<MediaIcon image="/tweet.svg" />
+				<MediaIcon image="/fb.svg" />
 			</div>
 		</footer>
 	);
