@@ -17,7 +17,7 @@ function SectionTwo() {
 					Atrox provides an effective and powerful way to manage your projects
 				</div>
 				<div>
-					<StartBtn fluid="true" />
+					<StartBtn />
 				</div>
 				<div className="grid grid-cols-2 sm:flex gap-5 sm:gap-7 md:gap-8 lg:gap-12 pt-6">
 					<Thumbnail source="/lock.svg" name="Speed &" name2="Security" />
