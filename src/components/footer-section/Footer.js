@@ -5,7 +5,7 @@ function Footer() {
 	return (
 		<footer
 			id="contact"
-			className="grid px-6 py-8 sm:grid-cols-2 bg-yellow-450 sm:py-24 sm:px-24"
+			className="grid px-6 py-8 sm:px-14 sm:py-20 md:py-24 md:px-24 sm:grid-cols-2 bg-yellow-450 "
 		>
 			<div className="grid gap-4 sm:gap-5">
 				<div className="font-bold text-xl sm:text-3xl font-mono">
