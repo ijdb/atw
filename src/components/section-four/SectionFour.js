@@ -4,11 +4,11 @@ import Image from "next/image";
 
 function SectionFour() {
 	return (
-		<div className="grid px-6 py-8 sm:px-14 sm:py-16 sm:bg-pink-100 md:grid-cols-2 md:py-28 md:px-24">
-			<div className="hidden md:flex relative">
+		<div className="grid px-6 py-8 sm:px-14 sm:py-16 md:px-20 md:py-24 sm:bg-pink-100 lg:grid-cols-2 lg:py-28 lg:px-24">
+			<div className="hidden lg:flex relative">
 				<Image src="/pattern.svg" fill={true} alt="pattern" />
 			</div>
-			<div className="grid gap-4 sm:gap-7">
+			<div className="grid gap-4 sm:gap-7 md:gap-9">
 				<div className="text-2xl w-10/12 sm:text-3xl md:text-4xl sm:tracking-normal font-mono sm:leading-snug">
 					Built for Creatives, by Creatives
 				</div>

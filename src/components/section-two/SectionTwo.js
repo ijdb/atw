@@ -7,7 +7,7 @@ function SectionTwo() {
 	return (
 		<div
 			id="product"
-			className="grid px-6 py-8 sm:px-14 sm:py-28 sm:flex md:py-32 md:px-24"
+			className="grid px-6 py-8 sm:px-14 sm:py-28 sm:flex md:px-20 md:py-28 lg:py-32 lg:px-24"
 		>
 			<div className="grid gap-7 sm:gap-7 md:gap-11 items-center sm:w-2/4 md:w-2/3">
 				<div className="text-2xl pt-4 sm:pt-0 font-mono sm:text-3xl md:text-4xl tracking-normal sm:leading-snug">
@@ -19,7 +19,7 @@ function SectionTwo() {
 				<div classname="sm:w-1/4">
 					<StartBtn fluid="true" />
 				</div>
-				<div className="grid grid-cols-2 sm:flex gap-5 sm:gap-7 md:gap-12 pt-6">
+				<div className="grid grid-cols-2 sm:flex gap-5 sm:gap-7 md:gap-8 lg:gap-12 pt-6">
 					<Thumbnail source="/lock.svg" name="Speed &" name2="Security" />
 					<Thumbnail
 						source="/scale.svg"
@@ -30,7 +30,7 @@ function SectionTwo() {
 				</div>
 			</div>
 
-			<div className="order-first sm:order-2 w-80 h-80 sm:w-80 md:w-3/5 relative z-10">
+			<div className="order-first sm:order-2 w-80 h-80 sm:w-80 md:w-96 md:h-auto relative">
 				<Image src="/isha.svg" fill={true} alt="" />
 			</div>
 		</div>

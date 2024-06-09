@@ -2,8 +2,8 @@ import React from "react";
 
 function SectionOne() {
 	return (
-		<div className="grid px-6 py-8 sm:px-14 sm:py-28  md:px-24 md:py-36 gap-4 items-center bg-yellow-450 sm:grid-cols-2  ">
-			<div className="text-2xl w-11/12 sm:text-3xl md:text-4xl md:max-w-md tracking-normal font-mono leading-normal">
+		<div className="grid px-6 py-8 sm:grid-cols-2 sm:px-14 sm:py-28 md:px-20 md:py-28 lg:px-24 lg:py-36 gap-4 items-center bg-yellow-450">
+			<div className="text-2xl w-11/12 sm:text-3xl md:text-4xl tracking-normal font-mono leading-normal">
 				With the Right Software, Great Things Can Happen
 			</div>
 			<div className="text-sm font-extralight leading-relaxed sm:font-light sm:tracking-wide">
