@@ -12,7 +12,7 @@ export default function Navbar() {
 					Communicate. Collaborate. Create
 				</div>
 			</div>
-			<div className="hidden lg:flex md:gap-5 items-center">
+			<div className="hidden lg:flex md:gap-5 lg:gap-9 items-center">
 				<Link href="#">
 					<NavLink name="Home" />
 				</Link>

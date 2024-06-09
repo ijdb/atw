@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function SectionFour() {
 	return (
-		<div className="grid px-6 py-8 sm:px-14 sm:py-16 md:px-20 md:py-24 sm:bg-pink-100 lg:grid-cols-2 lg:py-28 lg:px-24">
+		<div className="grid px-6 py-8 sm:px-14 sm:py-16 md:px-20 md:py-24 sm:bg-pink-100 lg:grid-cols-2 lg:py-28 lg:px-36">
 			<div className="hidden lg:flex relative">
 				<Image src="/pattern.svg" fill={true} alt="pattern" />
 			</div>

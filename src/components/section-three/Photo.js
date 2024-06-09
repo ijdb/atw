@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Photo({ source, title, desc }) {
 	return (
-		<div className="grid gap-5 sm:gap-2 lg:w-3/12 md:mb-6">
+		<div className="grid gap-5 sm:gap-2 md:mb-6 lg:mb-0">
 			<div className="h-48 w-40 sm:w-52 sm:h-60 md:w-64 md:h-72 lg:h-80 relative border-2 border-black rounded-md overflow-hidden">
 				<Image src={source} alt="animated" fill={true} />
 			</div>
