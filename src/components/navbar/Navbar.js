@@ -39,9 +39,9 @@ export default function Navbar() {
 				<HamburgerIcon click={handleClick} effect={open} />
 				{open && (
 					<div
-						className="absolute grid right-0 z-10 mt-4 p-12 w-full origin-top-right 
-					rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 
-				    focus:outline-none gap-8 text-xl transition duration-300 ease-in-out"
+						className="absolute grid right-0 z-10 mt-8 w-full origin-top-right 
+					rounded-md bg-white ring-1 ring-black ring-opacity-5 
+				    focus:outline-none  text-xl divide-y divide-gray-100 shadow-2xl"
 					>
 						<Link href="#">
 							<NavLink name="Home" />
