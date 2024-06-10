@@ -7,9 +7,9 @@ function SectionThree() {
 				What We Offer
 			</div>
 			<div className="font-light sm:w-2/4 md:w-3/4 lg:w-2/4 leading-normal text-justify">
-				I'm a paragraph. Click here to add your own text and edit me. It’s easy.
-				Just click “Edit Text” or double click me to add your own content and
-				make changes to the font.
+				I&apos;m a paragraph. Click here to add your own text and edit me.
+				It&apos;s easy. Just click “Edit Text” or double click me to add your
+				own content and make changes to the font.
 			</div>
 			<div className=" grid mt-8 sm:grid-cols-2 sm:justify-self-center lg:flex gap-14 sm:gap-12 md:gap-10 lg:gap-5 lg:mt-12 lg:grid-cols-4">
 				<Photo

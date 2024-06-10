@@ -13,8 +13,8 @@ function SectionFour() {
 					Built for Creatives, by Creatives
 				</div>
 				<div className="font-light leading-normal w-10/12 sm:w-11/12">
-					I'm a paragraph. Click here to add your own text and edit me. It’s
-					easy. Just click “Edit Text” or double click me to add your own
+					I&apos;m a paragraph. Click here to add your own text and edit me.
+					It’s easy. Just click “Edit Text” or double click me to add your own
 					content and make changes to the font. I’m a great place for you to
 					tell a story and let your users know a little more about you.
 				</div>

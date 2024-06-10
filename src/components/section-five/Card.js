@@ -11,9 +11,9 @@ function Card() {
 				<Circle />
 			</div>
 			<div className="p-6 sm:p-4 md:p-6 lg:p-9 text-sm md:text-base font-light sm:font-thin lg:font-light leading-relaxed sm:leading-snug md:leading-normal">
-				“I'm a testimonial. Click to edit me and add text that says something
-				nice about you and your services. Let your customers review you and tell
-				their friends how great you are.”
+				“I&apos;m a testimonial. Click to edit me and add text that says
+				something nice about you and your services. Let your customers review
+				you and tell their friends how great you are.”
 			</div>
 			<div className="justify-self-end self-end sm:self-start px-6 sm:px-2 lg:px-5 sm:text-xs md:text-sm lg:text-base py-6 lg:py-7 font-medium ">
 				Deena Levies,
