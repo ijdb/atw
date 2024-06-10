@@ -1,3 +1,7 @@
 export default function NavLink({ name }) {
-	return <div className="font-light hover:text-gray-500">{name}</div>;
+	return (
+		<div className="lg:font-light font-semibold tracking-wide lg:tracking-normal hover:text-gray-500">
+			{name}
+		</div>
+	);
 }
