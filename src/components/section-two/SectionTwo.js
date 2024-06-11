@@ -30,7 +30,10 @@ function SectionTwo() {
 				</div>
 			</div>
 
-			<div className="order-first sm:order-2 w-80 h-80 sm:w-80 md:w-96 md:h-auto lg:w-9/12 lg:h-96 relative">
+			<div
+				className="order-first sm:order-2 w-80 h-80 sm:w-80 md:w-96 md:h-auto lg:w-9/12 lg:h-96 relative 
+			animate-fade-left animate-once animate-duration-[2000ms] animate-delay-2000 animate-ease-linear"
+			>
 				<Image src="/isha.svg" fill={true} alt="" />
 			</div>
 		</div>
