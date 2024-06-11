@@ -6,7 +6,7 @@ function SectionOne() {
 			<div className="text-2xl w-11/12 sm:text-3xl md:text-4xl tracking-normal font-mono leading-normal">
 				With the Right Software, Great Things Can Happen
 			</div>
-			<div className="text-sm font-extralight leading-relaxed sm:font-light sm:tracking-wide">
+			<div className="text-sm font-light leading-relaxed sm:tracking-wide">
 				I&apos;m a paragraph. Click here to add your own text and edit me.
 				It&apos;s easy. Just click “Edit Text” or double click me to add your
 				own content and make changes to the font. Feel free to drag and drop me
